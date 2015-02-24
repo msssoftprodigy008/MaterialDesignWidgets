@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:widget="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+	<com.material.widget.Switch
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	<com.material.widget.RadioButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	<com.material.widget.CheckBox
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	<com.material.widget.CircleButton
+			android:id="@+id/circle_button"
+			widget:circle_icon="@drawable/ic_add"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	<com.material.widget.PaperButton
+			android:id="@+id/paper_button"
+			widget:paper_text="Paper Button"
+			android:layout_width="160dp"
+			android:layout_height="54dp"/>
+	<com.material.widget.CircularProgress
+			android:layout_marginTop="10dp"
+			widget:circular_progress_size="Normal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	<com.material.widget.LinearProgress
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="40dp"
+			android:layout_marginRight="40dp"
+			android:layout_width="match_parent"
+			android:layout_height="30dp"/>
+</LinearLayout>

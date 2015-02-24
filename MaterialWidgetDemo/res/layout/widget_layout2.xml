@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:widget="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:paddingTop="20dp"
+              android:paddingBottom="20dp"
+              android:gravity="center_horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.material.widget.FloatingEditText
+            android:id="@+id/floating_edit_text"
+            android:hint="FloatingEditText"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <com.material.widget.PaperButton
+            android:id="@+id/validate_button"
+            android:layout_marginTop="10dp"
+            widget:paper_text="Validate"
+            android:layout_width="160dp"
+            android:layout_height="54dp"/>
+    <com.material.widget.Slider
+            android:background="#00af0000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
